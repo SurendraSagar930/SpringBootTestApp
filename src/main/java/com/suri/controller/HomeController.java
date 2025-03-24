@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/home")
     public String message(){
-        return "Hello Jenkins Application Spring boot";
+        return "Hello Jenkins Application Spring boot from master";
     }
 }
